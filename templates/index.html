@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Page</title>
+        <link rel="stylesheet" href=" {{ url_for('static', filename='style.css') }} " />
+        <script src=" {{ url_for('static', filename='count-down.js') }} "></script>
+    </head>
+    <body>
+        <h1>Sample Flask Project</h1>
+        <a href="{{ url_for('list_page') }}">List Page</a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eum, dicta voluptatem sapiente repellendus blanditiis esse, nemo exercitationem nesciunt voluptatibus doloremque. Aperiam dolor laborum, nihil quasi veritatis eaque. Iusto, dolorum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse soluta minus debitis deserunt dolores magnam corrupti repudiandae, tempora voluptatum accusamus provident enim recusandae nam eveniet mollitia dolorum rem magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cumque tenetur delectus quia! Accusantium eligendi impedit minima vitae aliquam deserunt iusto ab! Consequuntur, numquam eum eveniet beatae molestias cum dignissimos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas nobis, nemo veniam ab magni incidunt! Debitis, nesciunt reiciendis molestias quidem eos temporibus. Molestiae nam explicabo deserunt eos, deleniti cum.</p>
+        <p id="timer"></p>
+    </body>
+</html>

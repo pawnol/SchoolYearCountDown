@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    </head>
+    <body>
+        <h1>Different Page with a List</h1>
+        <section>
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Go</li>
+            </ul>
+        </section>
+        <a href="{{ url_for('index_page') }}">Home</a>
+    </body>
+</html>
