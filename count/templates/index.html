@@ -4,7 +4,6 @@
         <title>Sample Page</title>
         <!--Production Links-->
         <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" />
-        <script src="{{ url_for('static', filename='scripts/count-down.js') }}"></script>
         <link rel="icon" href="{{ url_for('static', filename='images/sun.ico') }}">
     </head>
     <body>
@@ -29,5 +28,6 @@
                 </tbody>
             </table>
         </div>
+        <script src="{{ url_for('static', filename='scripts/count-down.js') }}"></script>
     </body>
 </html>
