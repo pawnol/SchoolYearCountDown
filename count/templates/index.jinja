@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html id="background">
+    <head>
+        <title>ETHS Countdown</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" />
+        <link id="icon" rel="icon">
+    </head>
+    <body>
+        <div class="container">
+            <h1><span id="event-title"></span> Countdown</h1>
+            <p id="date">hello</p>
+            
+            <table id="time">
+                <tbody>
+                    <tr id="time-data">
+                        <td id="days"></td>
+                        <td id="hours"></td>
+                        <td id="minutes"></td>
+                        <td id="seconds"></td>
+                    </tr>
+                    <tr id="time-labels">
+                        <td id="days-label"></td>
+                        <td id="hours-label"></td>
+                        <td id="minutes-label"></td>
+                        <td id="seconds-label"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="{{ url_for('static', filename='scripts/count-down.js') }}"></script>
+    </body>
+</html>

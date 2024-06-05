@@ -1,0 +1,8 @@
+{
+    "summaries": [
+        { "given": "Last Day of School - 5K through 11 Gr", "corrected": "Last Day of School"},
+        { "given": "Last Day of School", "corrected": "Last Day of School"},
+        { "given": "First Day of School", "corrected": "First Day of School"}
+    ],
+    "default-summary": "Event"
+}

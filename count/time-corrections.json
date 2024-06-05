@@ -1,0 +1,7 @@
+{
+    "times": [
+        { "day-type": "last", "time": " 11:30:00-05:00"},
+        { "day-type": "first", "time": " 07:45:00-05:00"}
+    ],
+    "default-time": " 00:00:00-05:00"
+}
