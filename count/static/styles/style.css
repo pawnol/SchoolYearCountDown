@@ -33,12 +33,12 @@ table {
 }
 
 .first-day {
-    background: url("../images/school.jpeg");
+    background: url("/static/images/school.jpeg");
     background-size: cover;
 }
 
 .last-day {
-    background: url("../images/grass.jpeg");
+    background: url("/static/images/grass.jpeg");
     background-size: cover;
     background-repeat: repeat;
 }
