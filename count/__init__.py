@@ -7,7 +7,7 @@ import json
 def create_app():
     app = Flask(__name__)
     app.config.from_mapping(
-        EAST_TROY_CALENDAR_URL='http://www.easttroy.k12.wi.us/pro/events_ical_subscribe.cfm?detailid=659489&categoryids=19&categoryids2=all&facultyflag=0'
+        EAST_TROY_CALENDAR_URL='https://www.easttroy.k12.wi.us/pro/events_ical_subscribe.cfm?detailid=659489&categoryids=19&categoryids2=all&facultyflag=0'
     )
 
     @app.route('/')
