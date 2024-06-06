@@ -29,9 +29,6 @@ def create_app():
 
         # Scrape event data
         events = get_events(current_app.config['EAST_TROY_CALENDAR_URL'], original_summaries)
-        events['events'].insert(0, {'summary': 'Last Day of School', 'date': '2024-06-05 15:29:00-05:00'})
-        events['events'].insert(0, {'summary': 'First Day of School', 'date': '2024-06-05 15:28:00-05:00'})
-        events['events'].insert(0, {'summary': 'Event', 'date': '2024-06-05 15:30:00-05:00'})
 
         # Fix any dates that do not have a time
         for event in events['events']:
